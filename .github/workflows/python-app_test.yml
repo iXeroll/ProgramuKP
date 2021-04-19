@@ -34,11 +34,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Build and push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v5
-      with:
-        image: kavabesielos/python_test
-        registry: docker.io
-        username: kavabesielos
-        password: fSj259GLU2uJ
-        
+#   - name: Build and push Docker Image
+#     uses: mr-smithers-excellent/docker-build-push@v5
+#     with:
+#       image: kavabesielos/python_test
+#       registry: docker.io
+#       username: kavabesielos
+#       password: fSj259GLU2uJ
+#       
