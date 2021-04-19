@@ -4,7 +4,7 @@ from createFreeAgentAdvertisement import createAdvertisement
 
 class TestAdvertisement(unittest.TestCase):
 
-    def testPositive(self):
+    def test_Positive(self):
        name="iXeroll"
        game="Valorant"
        rank="Immortal"
@@ -19,7 +19,7 @@ class TestAdvertisement(unittest.TestCase):
   #      expected="Name: iXeroll Game: Valorant Rank: Immortal \nDescription: Looking for a Comp Lithuanian Team "
   #      self.assertEqual(createAdvertisement(name,game,rank,description),expected)
     
-    def testNegative(self):
+    def test_Negative(self):
         name="iXeroll"
         game="Valorant"
         rank="Immortal"
