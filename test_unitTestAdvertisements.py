@@ -19,14 +19,14 @@ class TestAdvertisement(unittest.TestCase):
   #      expected="Name: iXeroll Game: Valorant Rank: Immortal \nDescription: Looking for a Comp Lithuanian Team "
   #      self.assertEqual(createAdvertisement(name,game,rank,description),expected)
     
-    def test_Negative(self):
-        name="iXeroll"
-        game="Valorant"
-        rank="Immortal"
-        description=""
-        expected="One or more required fields are empty"
-        self.assertEqual(createAdvertisement(name,game,rank,description),expected)
+  #  def test_Negative(self):
+  #      name="iXeroll"
+  #      game="Valorant"
+  #      rank="Immortal"
+  #      description=""
+  #      expected="One or more required fields are empty"
+  #      self.assertEqual(createAdvertisement(name,game,rank,description),expected)
 
-    
 
-unittest.main()
+if __name__ == '__main__':
+    unittest.main()
