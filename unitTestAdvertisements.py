@@ -12,12 +12,12 @@ class TestAdvertisement(unittest.TestCase):
        expected="Name: iXeroll Game: Valorant Rank: Immortal \nDescription: Looking for a Comp Lithuanian Team "
        self.assertEqual(createAdvertisement(name,game,rank,description),expected)
 
-    def testError(self):
-        name="iXeroll"
-        game="Valorant"
-        rank="Immortal"
-        expected="Name: iXeroll Game: Valorant Rank: Immortal \nDescription: Looking for a Comp Lithuanian Team "
-        self.assertEqual(createAdvertisement(name,game,rank,description),expected)
+  #  def testError(self):
+  #      name="iXeroll"
+  #      game="Valorant"
+  #      rank="Immortal"
+  #      expected="Name: iXeroll Game: Valorant Rank: Immortal \nDescription: Looking for a Comp Lithuanian Team "
+  #      self.assertEqual(createAdvertisement(name,game,rank,description),expected)
     
     def testNegative(self):
         name="iXeroll"
